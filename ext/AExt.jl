@@ -6,4 +6,6 @@ function __init__()
     @info "init AExt"
 end
 
+ExtSquared.greet(::ExtSquared.Greeter) = println("A greets you")
+
 end
